@@ -1,0 +1,24 @@
+config:
+  target: "https://frank.mondaystaging.com/boards/115706007"
+  phases:
+    - duration: 600
+      arrivalRate: 1
+      maxVusers: 1
+  http:
+    pool: 1
+  processor: "./stick-functions.js"
+scenarios:
+  - flow:
+      - loop:
+        - get:
+            url: "/"
+            afterResponse: "logHeaders"
+            #qs:
+              #search_keyword: "123"
+            capture:
+            - header: "x-service-version"
+              as: "versionValue"
+            #cookie:
+              #saved: "cookie:version"
+        - log: "New virtual user running"
+        count: 100

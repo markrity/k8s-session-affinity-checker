@@ -1,0 +1,223 @@
+{
+  "aggregate": {
+    "timestamp": "2020-10-01T18:06:54.632Z",
+    "scenariosCreated": 100,
+    "scenariosCompleted": 0,
+    "requestsCompleted": 100,
+    "latency": {
+      "min": 0.5,
+      "max": 3.7,
+      "median": 0.7,
+      "p95": 1.1,
+      "p99": 2.5
+    },
+    "rps": {
+      "count": 100,
+      "mean": 9.63
+    },
+    "scenarioDuration": {
+      "min": null,
+      "max": null,
+      "median": null,
+      "p95": null,
+      "p99": null
+    },
+    "scenarioCounts": {
+      "0": 100
+    },
+    "errors": {},
+    "codes": {
+      "200": 100
+    },
+    "matches": 0,
+    "customStats": {},
+    "counters": {},
+    "scenariosAvoided": 0,
+    "phases": [
+      {
+        "duration": 10,
+        "arrivalRate": 10
+      }
+    ]
+  },
+  "intermediate": [
+    {
+      "timestamp": "2020-10-01T18:06:54.124Z",
+      "scenariosCreated": 99,
+      "scenariosCompleted": 0,
+      "requestsCompleted": 99,
+      "latency": {
+        "min": 0.5,
+        "max": 3.7,
+        "median": 0.7,
+        "p95": 1.1,
+        "p99": 2.6
+      },
+      "rps": {
+        "count": 99,
+        "mean": 10.02
+      },
+      "scenarioDuration": {
+        "min": null,
+        "max": null,
+        "median": null,
+        "p95": null,
+        "p99": null
+      },
+      "scenarioCounts": {
+        "0": 99
+      },
+      "errors": {},
+      "codes": {
+        "200": 99
+      },
+      "matches": 0,
+      "latencies": [
+        3743070,
+        927935,
+        891888,
+        741164,
+        708067,
+        623077,
+        685850,
+        729684,
+        603474,
+        927508,
+        625444,
+        559372,
+        809949,
+        710284,
+        864952,
+        801183,
+        604757,
+        615386,
+        736845,
+        551193,
+        1332007,
+        692620,
+        814289,
+        553029,
+        695592,
+        708200,
+        604408,
+        838387,
+        875923,
+        586373,
+        568595,
+        543183,
+        592387,
+        647421,
+        701518,
+        653540,
+        618051,
+        652499,
+        833401,
+        605679,
+        625642,
+        670184,
+        664878,
+        643515,
+        735381,
+        739415,
+        914567,
+        808618,
+        801335,
+        760312,
+        1197974,
+        826864,
+        837844,
+        752714,
+        800780,
+        715293,
+        635685,
+        1098177,
+        563043,
+        926490,
+        726958,
+        698274,
+        824680,
+        652961,
+        750281,
+        750322,
+        694841,
+        561701,
+        622302,
+        1166219,
+        592078,
+        741475,
+        648481,
+        653332,
+        817578,
+        618699,
+        838021,
+        734962,
+        738240,
+        599287,
+        833005,
+        1303777,
+        726092,
+        669243,
+        917594,
+        939072,
+        1099677,
+        833160,
+        597470,
+        580364,
+        597115,
+        531549,
+        1123653,
+        829780,
+        801650,
+        872303,
+        810106,
+        874381,
+        756828
+      ],
+      "customStats": {},
+      "counters": {},
+      "concurrency": 0,
+      "pendingRequests": 0,
+      "scenariosAvoided": 0
+    },
+    {
+      "timestamp": "2020-10-01T18:06:54.631Z",
+      "scenariosCreated": 1,
+      "scenariosCompleted": 0,
+      "requestsCompleted": 1,
+      "latency": {
+        "min": 0.6,
+        "max": 0.6,
+        "median": 0.6,
+        "p95": 0.6,
+        "p99": 0.6
+      },
+      "rps": {
+        "count": 1,
+        "mean": 2
+      },
+      "scenarioDuration": {
+        "min": null,
+        "max": null,
+        "median": null,
+        "p95": null,
+        "p99": null
+      },
+      "scenarioCounts": {
+        "0": 1
+      },
+      "errors": {},
+      "codes": {
+        "200": 1
+      },
+      "matches": 0,
+      "latencies": [
+        577168
+      ],
+      "customStats": {},
+      "counters": {},
+      "concurrency": 0,
+      "pendingRequests": 0,
+      "scenariosAvoided": 0
+    }
+  ]
+}
