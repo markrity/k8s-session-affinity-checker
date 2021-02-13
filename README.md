@@ -2,6 +2,24 @@
 1. Update config.target at `/test/stick.yaml` 
 
 
+
+
+
+
+
+    
+
+Build different versions of version
+`docker build . -t ORG/version-get:test1`
+`docker push ORG/version-get:test1`
+
+
+kubectl set env deployment/version-get-deployment VERSION=123 -n version
+
+
+artillery commands.
+```bash
+
     -t, --target <url>            Set target URL
 
     artillery run test/stick.yaml
@@ -10,11 +28,4 @@
 
 
     artillery run test/stick.yaml -v '{"version": "666"}'
-
-    
-
-`docker build . -t dapulse/version-get:test1`
-`docker push dapulse/version-get:test1`
-
-
-kubectl set env deployment/version-get-deployment VERSION=123 -n version
+```
